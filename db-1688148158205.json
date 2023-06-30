@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Cristiano Ronaldo",
+      "image": "https://mvcmagazine.com/wp-content/uploads/2021/02/mvccopnike-2-480x384.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Victor Wooten",
+      "image": "https://i.ytimg.com/vi/kJAJZ0Xn4pA/maxresdefault.jpg"
+    }
+  ],
+  "events": [
+    {
+      "createdBy": 2,
+      "title": "Jazz concert",
+      "description": "Jazz concert Duke",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNzqMVi_f1AxEWyu9og9hx_0dB61rS7LQz9w&usqp=CAU",
+      "categoryIds": [
+        1
+      ],
+      "attendedBy": [],
+      "location": "Den Bosch",
+      "startTime": "2023-08-11T19:00:00.000Z",
+      "endTime": "2023-08-10T22:00:00.000Z",
+      "id": 1
+    },
+    {
+      "createdBy": 1,
+      "title": "Football Match",
+      "description": "European Championship",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW30IXT9S-g574a4j5nR5ejeolKf0NdzFR5Q&usqp=CAU",
+      "categoryIds": [
+        2
+      ],
+      "attendedBy": [],
+      "location": "Paris",
+      "startTime": "2016-07-10T15:00:00.000Z",
+      "endTime": "2016-07-10T17:00:00.000Z",
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "name": "Music",
+      "id": 1
+    },
+    {
+      "name": "Sport",
+      "id": 2
+    }
+  ]
+}
